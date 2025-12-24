@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="fa" dir="rtl" className="h-full">
+    <html lang="fa" dir="rtl" className="h-full bg-base-02 text-base-11">
       <body className="h-full flex items-center justify-center">
         {children}
       </body>

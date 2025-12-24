@@ -21,7 +21,7 @@ export function TechItem({ imageAlt, imageSrc, title, url }: TechItemProps) {
       title={title}
       className="grayscale-100 hover:grayscale-0 transition-all flex items-center justify-center"
     >
-      <img src={imageSrc} alt={imageAlt} className="h-16" />
+      <img src={imageSrc} alt={imageAlt} className="h-12" />
     </a>
   )
 }
