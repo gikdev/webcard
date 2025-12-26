@@ -2,6 +2,12 @@ import type { PropsWithChildren } from "react"
 import { lahzeh } from "#/assets/fonts/Lahzen"
 import "./globals.css"
 import { DefaultHead } from "./default-head"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "محمدمهدی بهرامی",
+  description: "وب‌سایت شخصی محمدمهدی بهرامی، برنامه‌نویس وب‌اپ",
+}
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
