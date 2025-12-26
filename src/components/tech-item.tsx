@@ -19,7 +19,7 @@ export function TechItem({ imageAlt, imageSrc, title, url }: TechItemProps) {
       href={url}
       target="_blank"
       title={title}
-      className="grayscale-100 hover:grayscale-0 transition-all flex items-center justify-center"
+      className="flex items-center justify-center bg-base-03 p-2 rounded-md transition-all hover:scale-110 hover:text-white hover:bg-base-04"
     >
       <img src={imageSrc} alt={imageAlt} className="h-12" />
     </a>

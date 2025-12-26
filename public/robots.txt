@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bahrami85.ir/sitemap.xml

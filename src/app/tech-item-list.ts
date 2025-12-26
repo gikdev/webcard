@@ -22,13 +22,13 @@ export const techList: TechListItem[] = [
     title: "TypeScript | تایپ‌اسکریپت",
     url: "https://www.typescriptlang.org/",
   },
-  {
-    id: "tailwindcss",
-    imageAlt: "Tailwind CSS | تیلویند سی‌اس‌اس",
-    imageSrc: "/tech/tailwindcss.svg",
-    title: "Tailwind CSS | تیلویند سی‌اس‌اس",
-    url: "https://tailwindcss.com/",
-  },
+  // {
+  //   id: "tailwindcss",
+  //   imageAlt: "Tailwind CSS | تیلویند سی‌اس‌اس",
+  //   imageSrc: "/tech/tailwindcss.svg",
+  //   title: "Tailwind CSS | تیلویند سی‌اس‌اس",
+  //   url: "https://tailwindcss.com/",
+  // },
   {
     id: "vscode",
     imageAlt: "Visual Studio Code | ویژوال استودیو کد",
